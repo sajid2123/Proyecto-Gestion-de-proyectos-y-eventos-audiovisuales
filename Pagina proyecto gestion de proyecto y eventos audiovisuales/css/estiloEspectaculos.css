@@ -1,0 +1,15 @@
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: Georgia, serif;
+
+}
+
+.description {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}

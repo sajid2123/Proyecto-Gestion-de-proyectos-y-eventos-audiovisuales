@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input[type="submit"] {
+    -webkit-tap-highlight-color: transparent;
+}
+
+input:focus {
+  outline: transparent;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-buttom {
+  margin-bottom: 1em;
+}
+
+.margin-buttom-sm {
+  margin-bottom: 0.5em;
+}
+
+.bg--primary {
+  background-color: #333334;
+}
+
+.bg--secondary {
+  background-color: #000000;
+}
+
+.bg--white {
+  background-color: #efefef;
+}
+
+.color--primary {
+  color: #d32929;
+}
+
+.color--secondary {
+  color: #a74855;
+}
+
+.color--tertionary {
+  color: #d95d5d;
+}
+
+.border-radius {
+  border-radius: 0.5em;
+}
+
+.border-radius--lg {
+  border-radius: 1.2em;
+}
+
+.border-radius--round {
+  border-radius: 50%;
+}
+
+.border-radius--left {
+  border-radius: 0.5em 0 0 0.5em;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login__card {
+  height: 26em;
+  width: 18em;
+  box-shadow: rgba(201, 36, 36, 0.5) 0 0 1em;
+}
+
+.title {
+  letter-spacing: 2px;
+}
+
+.login__username,
+.login__password {
+  height: 3em;
+  box-shadow: 1px 1px 5px #777;
+}
+
+.login__username span:nth-child(1),
+.login__password span:nth-child(1) {
+  height: 100%;
+  width: 3em;
+}
+
+.login__username input,
+.login__password input {
+  width: 11em;
+  padding: 0.1em 0.6em;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 0.7px;
+}
+
+.login__btn {
+  height: 2em;
+  width: 10em;
+  border: none;
+  box-shadow: 1px 1px 5px #777;
+  font-size: 1.2em;
+  font-weight: bolder;
+  line-height: 2em;
+  cursor: pointer;
+}
+
+.login__btn:hover {
+  transform: scale(1.05);
+}
+
+.login__btn:active {
+  transform: scale(0.9);
+}
+
+.forget__link:hover {
+  opacity: 0.8;
+}
+
+.forget__link:active {
+  transform: scale(0.9);
+}
+
+.login__using__title hr {
+  border-color: #972727;
+  width: 5em;
+  margin: 0.5em;
+}
+
+.login__using__icon {
+  height: 1.5em;
+  width: 1.5em;
+  font-size: 1.2em;
+}
+
+.login__using__icon:hover {
+  background-color: #a7c5eb;
+  color: #4a47a3;
+}

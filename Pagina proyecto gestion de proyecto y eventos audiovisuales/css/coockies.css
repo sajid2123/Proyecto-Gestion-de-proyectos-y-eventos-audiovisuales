@@ -1,0 +1,30 @@
+.ventana-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventana-cookies p {
+    margin-right: 10px;
+}
+
+.boton-aceptar {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton-aceptar:hover {
+    background-color: black;
+    color: white;
+}
